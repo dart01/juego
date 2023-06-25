@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>juego de carrera y bombas</title>
 </head>
 <body>
-    
+    <div class="gameContainer">
+        <canvas id="game"></canvas>
+
+        <div class="btns">
+            <button id="up">arriba</button>
+            <button id="down">abajo</button>
+            <button id="left">izquierda</button>
+            <button id="right">derecha</button>
+        </div>
+        <div class="messages">
+            <p>parrafo de informacion</p>
+        </div>
+    </div>
+    <script src="maps.js"></script>
+    <script src="game.js"></script>
 </body>
 </html>
